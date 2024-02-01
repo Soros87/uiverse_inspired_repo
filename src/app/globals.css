@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222.2 84% 4.9%;
+  /* COLORS   */
+
+  --green-50: #f1fb9d;
+  --green-75: #e2f63c;
+  --green-100: #dbf40c;
+  --green-125: #afc309;
+  --green-150: #839207;
+
+  --black-50: #4a4a4a;
+  --black-75: #1d1d1d;
+  --black-100: #181818;
+  --black-125: #101010;
+  --black-150: #000000;
+
+  --white-50: #ffffff;
+  --white-100: #e7e7e7;
+  --white-125: #b0b0b0;
+  --white-150: #818181;
+
+  --grey-50:#C0C0C0;
+  --grey-100:#A9A9A9;
+  --grey-125: #808080;
+  --grey-150:	#696969
+
+  /* FONTS */
+
+  --fs-display: 5rem;
+  --lh-display: 5.5rem;
+
+  --fs-h1: 3.75rem;
+  --lh-h1: 4.5rem;
+
+  --fs-h2: 3rem;
+  --lh-h2: 3.6rem;
+
+  --fs-h3: 2.4375rem;
+  --lh-h3: 2.925rem;
+
+  --fs-h4: 1.9375rem;
+  --lh-h4: 2.325rem;
+
+  --fs-h5: 1.56313rem;
+  --lh-h5: 2.03206rem;
+
+  --fs-h6: 1.25rem;
+  --lh-h6: 1.625rem;
+
+  --fs-base-large: 2rem;
+  --lh-base-large: 2.8rem;
+
+  --fs-base: 1rem;
+  --lh-base: 1.8rem;
+
+  --fs-footer: 0.9rem;
+  --lh-footer: 1.62rem;
+}
+
+body {
+  font-family: var(--font-sora);
+  color: var(--white-100);
+  background: var(--black-100);
+}
+
+@layer utilities {
+  .shadow-hover:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+  }
+
+
+}
