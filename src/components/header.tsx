@@ -35,10 +35,7 @@ const Header = () => {
             className="ml-5 text-gray-700 text-[2rem] flex items-center gap-2 rounded-full borderBlack outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
           >
             {" "}
-            <FaGithubSquare className=" group-hover:opacity-0 text-white-100" />
-            <span className=" absolute opacity-0 group-hover:opacity-100 group-hover:text-white-100 group-hover:text-sm group-hover:translate-y-10 duration-700 whitespace-nowrap">
-              Get Source Code
-            </span>
+            <FaGithubSquare className="text-white-100" />
           </a>
         </div>
 
