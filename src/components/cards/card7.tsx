@@ -12,7 +12,7 @@ const Card7 = () => {
   };
 
   return (
-    <div className="flex h-[280px] w-full flex-col rounded-[1rem] p-5 bg-white-100 text-black-100">
+    <div className="flex w-full flex-col rounded-[1rem] p-5 bg-white-100 text-black-100">
       {/* Display post owner detail */}
       <div className="flex flex-col">
         <div className="w-full flex justify-between">

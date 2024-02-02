@@ -65,12 +65,16 @@ body {
   font-family: var(--font-sora);
   color: var(--white-100);
   background: var(--black-100);
+
+  
+  
 }
 
 @layer utilities {
   .shadow-hover:hover {
     box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
   }
+
 
 
 }

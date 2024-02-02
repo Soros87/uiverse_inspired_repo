@@ -1,5 +1,4 @@
 import React from "react";
-import { FaPaperPlane } from "react-icons/fa";
 
 const Card2 = () => {
   return (

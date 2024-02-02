@@ -13,11 +13,11 @@ export default function Home() {
         {links.map((link, index) => (
           <Link
             href={link.hash}
-            className=" flex w-full items-start justify-start transition "
+            className=" flex w-full items-start justify-start transition relative "
             key={index}
           >
             <li
-              className={`list-none cursor-pointer font-bold text-center py-3 my-2 text-lg hover:bg-white-50 hover:text-black-100 hover:rounded-full px-3`}
+              className={` list-none cursor-pointer font-bold text-center py-3 my-2 text-lg hover:bg-white-50 hover:text-black-100 hover:rounded-full px-3`}
               key={index}
             >
               {link.name}

@@ -8,6 +8,7 @@ import Card5 from "./loaders/card5";
 import Card6 from "./loaders/card6";
 import Card7 from "./cards/card7";
 import Card8 from "./inputs/card8";
+import Card9 from "./inputs/card9";
 
 const Catalogue = () => {
   return (
@@ -38,6 +39,7 @@ const Catalogue = () => {
       <SectionHeading> Inputs </SectionHeading>
       <div className="w-full h-full grid md:grid-cols-2 lg:grid-cols-4 sm: grid-cols-1 gap-4 p-5 items-center text-center overflow-auto">
         <Card8 />
+        <Card9 />
       </div>
       <SectionHeading> Toggle switches </SectionHeading>
       <div className="w-full h-full grid md:grid-cols-2 lg:grid-cols-4 sm: grid-cols-1 gap-4 p-5 items-center text-center overflow-auto"></div>

@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </nav>
       {toggleMenu && (
-        <ul className="z-[1000] fixed top-[4rem] -right-0 p-3 w-full h-screen shadow-2xl list-none flex flex-col justify-start items-end rounded-md text-white-100 animate-slide-in">
+        <ul className="z-[1000] fixed top-[4rem] -right-0 p-3 w-full h-screen shadow-2xl list-none flex flex-col justify-start items-end rounded-md text-white-100 animate-slide-in bg-black-100 ">
           {links.map((link, index) => (
             <NavBarItem
               key={link.name + index}
