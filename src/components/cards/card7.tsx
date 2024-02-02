@@ -38,7 +38,7 @@ const Card7 = () => {
         <Image
           src="https://res.cloudinary.com/dfx7jn7xg/image/upload/v1701934970/socialmedia/auxq7kk3xecnccqtx0ig.jpg"
           alt="pic"
-          width={300}
+          width={400}
           height={50}
           className=" rounded-lg"
         />

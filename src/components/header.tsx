@@ -5,6 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { links } from "@/lib/data";
 import Link from "next/link";
 import { NavBarItemProps } from "@/types";
+import { FaGithubSquare } from "react-icons/fa";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -26,9 +27,21 @@ const Header = () => {
   return (
     <header className="z-[999] relative flex justify-between items-center ">
       <nav className="fixed top-0 h-[4.5rem] w-full rounded-none justify-start items-start bg-black-100">
-        <Link href="/" className="flex ml-9 mt-4">
+        <div className="flex ml-9 mt-4">
           <p className="text-h4 text-center justify-center">UI Library</p>
-        </Link>
+          <a
+            href="https://github.com/Soros87/uiverse_inspired_repo"
+            target="_blank"
+            className="ml-5 text-gray-700 text-[2rem] flex items-center gap-2 rounded-full borderBlack outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
+          >
+            {" "}
+            <FaGithubSquare className=" group-hover:opacity-0 text-white-100" />
+            <span className=" absolute opacity-0 group-hover:opacity-100 group-hover:text-white-100 group-hover:text-sm group-hover:translate-y-10 duration-700 whitespace-nowrap">
+              Get Source Code
+            </span>
+          </a>
+        </div>
+
         <div className="fixed top-5 right-3">
           {toggleMenu ? (
             <AiOutlineClose
