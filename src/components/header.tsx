@@ -16,11 +16,13 @@ const Header = () => {
       onClick={() => setToggleMenu(false)}
       className=" flex w-full items-center justify-center px-3 py-3 transition "
     >
-      <li
-        className={`text-h6 cursor-pointer font-bold text-center ${classprops} hover:bg-white-50 hover:text-black-100 hover:rounded-full px-3 py-3`}
-      >
-        {title}
-      </li>
+      <div className="w-[90%] hover:bg-white-50 hover:text-black-100 hover:rounded-full">
+        <li
+          className={`text-h6 cursor-pointer font-bold text-center ${classprops}  px-3 py-3`}
+        >
+          {title}
+        </li>
+      </div>
     </Link>
   );
 

@@ -16,12 +16,14 @@ export default function Home() {
             className=" flex w-full items-start justify-start transition relative "
             key={index}
           >
-            <li
-              className={` list-none cursor-pointer font-bold text-center py-3 my-2 text-lg hover:bg-white-50 hover:text-black-100 hover:rounded-full px-3`}
-              key={index}
-            >
-              {link.name}
-            </li>
+            <div className="w-full hover:bg-white-50 hover:text-black-100 hover:rounded-full items-start py-2">
+              <li
+                className={` list-none cursor-pointer font-bold  my-2 text-lg px-3 text-left whitespace-nowrap`}
+                key={index}
+              >
+                {link.name}
+              </li>
+            </div>
           </Link>
         ))}
       </div>
